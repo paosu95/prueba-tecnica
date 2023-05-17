@@ -1,0 +1,33 @@
+$colorCategorias: #1D1D1D;
+
+.contenedorLista {
+    display: inline;
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 820px;
+    text-decoration: none;
+    cursor: pointer;
+    list-style: none;
+    margin-right: 25px;
+    width: 900px;
+    margin-bottom: 47px;
+
+
+
+    button {
+
+        margin-right: 25px;
+        font-weight: bold;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+
+    }
+
+}

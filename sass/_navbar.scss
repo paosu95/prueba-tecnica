@@ -1,0 +1,80 @@
+$letrasNav: #FFFFFF;
+$hoverNav: #FFBE40;
+
+nav {
+    position: absolute;
+    width: 100%;
+    height: 73px;
+    left: 0px;
+    top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    background: #0B0A0A;
+}
+
+.titleMovie {
+    color: $letrasNav;
+    width: 96px;
+    height: 35px;
+    left: 123px;
+    top: 0px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 29px;
+    line-height: 35px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.titleMovie:hover {
+    color: $hoverNav;
+}
+
+
+.contenedorLetras {
+    float: right;
+    width: 500px;
+    margin-right: 25px;
+    top: 0px;
+    font-style: normal;
+    line-height: 24px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: $letrasNav;
+    text-decoration: none;
+    cursor: pointer;
+    list-style: none;
+}
+
+
+.opcion {
+    margin-right: 25px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+
+.opcion:hover {
+    color: $hoverNav;
+}
+
+.loginCamera {
+    margin-left: 100px;
+    width: 30px;
+}
+
+.contenedorPrimero {
+    display: flex;
+    align-items: center;
+    margin-top: -8px;
+}

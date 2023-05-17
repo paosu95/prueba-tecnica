@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div>
+      <nav>
+        <div class="contenedorPrimero">
+          <img class="loginCamera" src="img/video-camera.png" alt="Mi imagen" />
+          <p class="titleMovie">Movies</p>
+        </div>
+        <div>
+          <ul class="contenedorLetras">
+            <button class="opcion">Home</button>
+            <button class="opcion">Categories</button>
+            <button class="opcion">My favorites</button>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="contenedor">
+        <div>
+          <p class="tituloContenedor">
+            Programa tu fin de semana con <span class="movie"> Movies</span>
+          </p>
+          <p class="tituloContenedor2">escoge tus peliculas favorítas</p>
+          <img class="loginHero" src="img/hero.png" alt="active1" />
+        </div>
+      </div>
+
+      <div>
+        <ul class="contenedorLista">
+          <button id="peliculasAll" class="opcionLista">All</button>
+          <button id="peliculasNewReleases" class="opcionLista">
+            New releases
+          </button>
+          <button id="peliculasMetascore" class="opcionLista">
+            Most popular
+          </button>
+          <button id="PeliculasImdbRating" class="opcionLista">Trends</button>
+          <button id="btnMostrarMayorImdbVotes" class="opcionLista">
+            Recomendations
+          </button>
+        </ul>
+      </div>
+
+      <div>
+        <div class="containerImg" id="datos-container"></div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
